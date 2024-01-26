@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+
+.textContainer {
+  padding: 2rem;
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subHeading {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.homeHeading {
+  text-transform: uppercase;
+  font-size: 5rem;
+  align-self: flex-start;
+}
+
+.homeHeading span {
+  font-family: "Bungee Outline", sans-serif;
+  color: var(--clr-primary-1);
+}
+
+.highlight {
+  align-self: flex-start;
+  text-align: center;
+  background-color: var(--clr-primary-2);
+  width: 70%;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 0.2rem 1rem;
+}
+
+.homeInfo {
+  width: 100%;
+}
+
+.homeBtn {
+  align-self: flex-start;
+  padding: 0.4rem 1rem;
+  text-align: center;
+  background-color: var(--clr-primary-3);
+  width: 13rem;
+  color: var(--clr-white);
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: var(--radius);
+}
+
+@media (min-width: 800px) {
+  .homeContainer {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .textContainer {
+    flex: 0 0 45%;
+    margin: auto auto;
+    padding-top: 2rem;
+  }
+
+  .imageContainer {
+    display: block;
+    flex: 0 0 40%;
+    margin-left: auto;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../public/images/main.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .imageContainer img {
+    filter: grayscale(0.5);
+    aspect-ratio: 4/1;
+  }
+
+  .highlight {
+    width: 60%;
+  }
+}
