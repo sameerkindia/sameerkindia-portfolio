@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
 
+.homeContainer {
+  height: 95vh;
+}
+
 .textContainer {
   padding: 2rem;
   padding-top: 10rem;
@@ -74,7 +78,7 @@
     margin-left: auto;
     overflow: hidden;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../../public/images/main.png");
+      url("../images/main.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

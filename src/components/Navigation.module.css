@@ -1,0 +1,38 @@
+.navigation {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 1rem 3rem;
+  padding-bottom: 0;
+  background-color: var(--clr-primary-1);
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 800px) {
+  .navigation {
+    gap: 1.5rem;
+    position: fixed;
+    flex-direction: column;
+    width: min-content;
+    padding: 1.5rem 1rem;
+    border-radius: 50px;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.navIcon {
+  color: var(--clr-black);
+  transition: all 0.3s;
+}
+
+.active {
+  color: white;
+}
+
+.icon:hover {
+  color: var(--clr-white);
+}
