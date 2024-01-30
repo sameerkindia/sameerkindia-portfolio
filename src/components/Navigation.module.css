@@ -24,6 +24,20 @@
   }
 }
 
+/* @media (min-width: 800px) {
+  .navigation {
+    gap: 1.5rem;
+    position: relative;
+    flex-direction: column;
+    width: min-content;
+    padding: 1.5rem 1rem;
+    border-radius: 50px;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }
+} */
+
 .navIcon {
   color: var(--clr-black);
   transition: all 0.3s;

@@ -85,6 +85,7 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-4);
 }
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -111,8 +112,33 @@ p {
 
 .section-center {
   position: relative;
-  width: 95vw;
+  width: 100vw;
+  min-height: 95vh;
+  margin: 0;
   max-width: 1170rem;
-  margin: 1rem auto;
   box-shadow: var(--dark-shadow);
+}
+
+@media (min-width: 800px) {
+  .section-center {
+    margin: 1rem auto;
+    width: 95vw;
+  }
+}
+
+.page-heading {
+  padding: 2rem 0.5rem;
+  border: 1.5px solid;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-heading h2 {
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+  font-weight: bolder;
+}
+
+.active {
+  color: white;
 }
