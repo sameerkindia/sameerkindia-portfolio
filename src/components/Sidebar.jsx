@@ -12,10 +12,7 @@ function Sidebar() {
           <NavLink to="/about">about me</NavLink>
         </li>
         <li className={styles.link}>
-          <NavLink to="/resume">resume</NavLink>
-        </li>
-        <li className={styles.link}>
-          <NavLink to="/portfolio">portfolio</NavLink>
+          <NavLink to="/project">Project</NavLink>
         </li>
         <li className={styles.link}>
           <NavLink to="/contact">contact</NavLink>

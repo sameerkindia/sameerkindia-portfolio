@@ -127,6 +127,7 @@ p {
 }
 
 .page-heading {
+  width: 100%;
   padding: 2rem 0.5rem;
   border: 1.5px solid;
   text-align: center;
@@ -141,4 +142,9 @@ p {
 
 .active {
   color: white;
+}
+
+.page {
+  display: flex;
+  height: 95vh;
 }

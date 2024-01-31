@@ -6,7 +6,7 @@ function AboutMe() {
   return (
     <main className="section-center">
       <Navigation />
-      <div className={styles.aboutPage}>
+      <div className="page">
         <Sidebar />
         <div className={styles.aboutContainer}>
           <div className="page-heading">

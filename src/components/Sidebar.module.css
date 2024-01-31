@@ -1,7 +1,8 @@
-ul {
+.liLinks {
   background-color: var(--clr-primary-1);
   padding: 2rem;
   height: 100%;
+  width: max-content;
   flex-direction: column;
   justify-content: center;
   font-size: 2rem;
@@ -13,14 +14,10 @@ ul {
 }
 
 @media (min-width: 890px) {
-  ul {
+  .liLinks {
     display: flex;
   }
 }
-
-/* ul{
-  
-} */
 
 li {
   color: black !important;
