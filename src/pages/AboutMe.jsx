@@ -36,6 +36,18 @@ function AboutMe() {
               innovative endeavors, shaping the digital landscape with my Full
               Stack proficiency.
             </p>
+
+            <div className={styles.skills}>
+              <h3>Skills</h3>
+              <p className={styles.skill}>
+                <span>JavaScript</span> <span>ReactJS</span> <span>NodeJS</span>{" "}
+                <span>ExpressJS</span> <span>MongoDB</span>
+              </p>
+              <p className={styles.skill}>
+                <span>HTML</span> <span>CSS</span> <span>Scss</span>{" "}
+                <span>Tailwind</span> <span>Redux</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>

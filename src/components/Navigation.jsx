@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import styles from "./Navigation.module.css";
 
-import { FaHome, FaTelegramPlane, FaTv, FaUser } from "react-icons/fa";
+import { FaHome, FaTv, FaUser } from "react-icons/fa";
 
 function Navigation() {
   return (
@@ -16,10 +16,6 @@ function Navigation() {
 
       <NavLink className={`${styles.navIcon} ${styles.icon}`} to="/project">
         <FaTv />
-      </NavLink>
-
-      <NavLink className={`${styles.navIcon} ${styles.icon}`} to="/contact">
-        <FaTelegramPlane />
       </NavLink>
     </nav>
   );

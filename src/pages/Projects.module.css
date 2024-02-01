@@ -1,23 +1,21 @@
 .projectContainer {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   padding: 2rem;
   padding-right: 5rem;
   flex-grow: 1;
-  background: url("../images/projectUndraw.svg");
+  /* background: url("../images/projectUndraw.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-position-x: right;
-  background-size: 30%;
+  background-size: 30%; */
 }
 
 .project {
   width: 100%;
   text-align: center;
   overflow: auto;
-  background-color: aqua;
   padding: 1rem;
 }
 
@@ -28,12 +26,9 @@
   gap: 1rem;
 }
 
-.projectList li {
-  width: 30%;
-  height: 20rem;
-  background-color: blue;
+@media (min-width: 600px) {
+  .projectList {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
-
-/* .project ul{
-
-} */

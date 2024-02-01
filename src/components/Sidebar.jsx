@@ -5,17 +5,20 @@ function Sidebar() {
   return (
     <aside>
       <ul className={styles.liLinks}>
-        <li className={styles.link}>
-          <NavLink to="/">home</NavLink>
+        <li>
+          <NavLink to="/">
+            <span className={styles.link}>home</span>
+          </NavLink>
         </li>
-        <li className={styles.link}>
-          <NavLink to="/about">about me</NavLink>
+        <li>
+          <NavLink className={styles.link} to="/about">
+            about me
+          </NavLink>
         </li>
-        <li className={styles.link}>
-          <NavLink to="/project">Project</NavLink>
-        </li>
-        <li className={styles.link}>
-          <NavLink to="/contact">contact</NavLink>
+        <li>
+          <NavLink className={styles.link} to="/project">
+            Project
+          </NavLink>
         </li>
       </ul>
     </aside>

@@ -148,3 +148,28 @@ p {
   display: flex;
   height: 95vh;
 }
+
+.contactMe {
+  font-size: 1.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  color: var(--clr-primary-1);
+}
+
+.contactMe span {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.contactLink:link,
+.contactLink:visited {
+  color: black;
+}
+.contactLink:hover {
+  color: var(--clr-grey-5);
+}

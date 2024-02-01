@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import styles from "./Home.module.css";
 import Navigation from "../components/Navigation";
+import { FaAt, FaPhone } from "react-icons/fa";
 
 function Home() {
   return (
@@ -22,7 +23,27 @@ function Home() {
               mark in the tech world.
             </p>
 
-            <NavLink className={styles.homeBtn}>more about me</NavLink>
+            <NavLink className={styles.homeBtn} to="/about">
+              more about me
+            </NavLink>
+
+            <p className="contactMe">
+              <span>
+                <FaPhone />
+                <a className="contactLink" href="tel:7220932501">
+                  +91 7220932501
+                </a>
+              </span>
+              <span>
+                <FaAt />
+                <a
+                  className="contactLink"
+                  href="mailto:sameerkhanaa5@gmail.com"
+                >
+                  sameerkhanaa5@gmail.com
+                </a>
+              </span>
+            </p>
           </div>
           <div className={`${styles.imageContainer}`}></div>
         </div>

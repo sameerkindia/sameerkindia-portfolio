@@ -1,8 +1,11 @@
 import Navigation from "../components/Navigation";
+import ProjectItem from "../components/ProjectItem";
 import Sidebar from "../components/Sidebar";
+import myProjects from "../projectData";
 import styles from "./Projects.module.css";
 
 function Projects() {
+  const data = myProjects;
   return (
     <main className="section-center">
       <Navigation />
@@ -16,33 +19,16 @@ function Projects() {
           </div>
 
           <section className={styles.project}>
-            <p>All Projects</p>
             <ul className={styles.projectList}>
-              <li>
-                <a href="#" target="_blank">
-                  Project 1
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  Project 1
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  Project 1
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  Project 1
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  Project 1
-                </a>
-              </li>
+              {data.map((item) => (
+                <ProjectItem
+                  title={item.name}
+                  tecnology={item.tecnology}
+                  url={item.url}
+                  id={item.id}
+                  key={item.id}
+                />
+              ))}
             </ul>
           </section>
         </div>

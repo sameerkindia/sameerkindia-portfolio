@@ -1,0 +1,36 @@
+.project {
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid;
+  transition: all 0.3s;
+}
+
+.project:hover {
+  /* background-color: var(--clr-primary-2); */
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+
+@media (min-width: 600px) {
+  .project {
+    width: 45%;
+  }
+}
+@media (min-width: 800px) {
+  .project {
+    width: 30%;
+    min-width: 15rem;
+  }
+}
+
+.subHeading {
+  font-size: 1.6rem;
+  color: black;
+}
+
+.link:link,
+.link:visited {
+  padding: 0.7rem 2rem;
+  border-radius: 1rem;
+  color: black !important;
+  background-color: var(--clr-primary-1);
+}
