@@ -1,3 +1,4 @@
+import { FaDownload } from "react-icons/fa";
 import Navigation from "../components/Navigation";
 import Sidebar from "../components/Sidebar";
 import styles from "./AboutMe.module.css";
@@ -36,6 +37,13 @@ function AboutMe() {
               innovative endeavors, shaping the digital landscape with my Full
               Stack proficiency.
             </p>
+
+            <span className={styles.download}>
+              <FaDownload />
+              <a href="/assets/resume.pdf" download="sameer's resume">
+                Resume
+              </a>
+            </span>
 
             <div className={styles.skills}>
               <h3>Skills</h3>

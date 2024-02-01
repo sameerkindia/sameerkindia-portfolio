@@ -40,3 +40,20 @@
   font-weight: 600;
   border-radius: 0.5rem;
 }
+
+.download {
+  padding: 0.5rem 1rem;
+  background-color: var(--clr-primary-1);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  max-width: 10rem;
+  gap: 1rem;
+}
+
+.download a:link,
+.download a:visited {
+  color: black;
+}

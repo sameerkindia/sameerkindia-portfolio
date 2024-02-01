@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import styles from "./Home.module.css";
 import Navigation from "../components/Navigation";
-import { FaAt, FaPhone } from "react-icons/fa";
+import { FaAt, FaGithub, FaPhone } from "react-icons/fa";
 
 function Home() {
   return (
@@ -42,6 +42,19 @@ function Home() {
                 >
                   sameerkhanaa5@gmail.com
                 </a>
+              </span>
+
+              <span>
+                <FaGithub />
+                {/* eslint-disable */}
+                <a
+                  className="contactLink"
+                  href="https://github.com/sameerkindia"
+                  target="_blank"
+                >
+                  sameerkindia
+                </a>
+                {/* eslint-enable  */}
               </span>
             </p>
           </div>
