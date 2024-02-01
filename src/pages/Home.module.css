@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
 
 .homeContainer {
-  height: 95vh;
+  min-height: 95vh;
 }
 
 .textContainer {
@@ -23,7 +23,7 @@
 
 .homeHeading {
   text-transform: uppercase;
-  font-size: 5rem;
+  font-size: 4rem;
   align-self: flex-start;
 }
 
@@ -58,6 +58,12 @@
   text-transform: uppercase;
   font-weight: 600;
   border-radius: var(--radius);
+}
+
+@media (min-width: 500px) {
+  .homeHeading {
+    font-size: 5rem;
+  }
 }
 
 @media (min-width: 800px) {
