@@ -73,7 +73,7 @@
   }
 
   .textContainer {
-    flex: 0 0 45%;
+    /* flex: 0 0 45%; */
     margin: auto auto;
     padding-top: 2rem;
   }

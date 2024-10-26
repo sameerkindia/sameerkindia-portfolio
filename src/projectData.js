@@ -2,6 +2,7 @@ const myProjects = [
   {
     id: 1,
     name: "Fast-pizza",
+    imgSrc: "/images/fast-pizza.png",
     url: "https://fast-pizza-sameerkindia.netlify.app",
     core: "reactJS",
     tecnology: ["reactJs", "redux", "tailwind"],
@@ -9,6 +10,7 @@ const myProjects = [
   {
     id: 2,
     name: "Pizza-webapp",
+    imgSrc: "/images/pizza-web.png",
     url: "https://pizza-web-app-sameerkindia.netlify.app",
     core: "javaScript",
     tecnology: ["javaScript", "scss"],
@@ -16,6 +18,7 @@ const myProjects = [
   {
     id: 3,
     name: "Home comfort",
+    imgSrc: "/images/home-comfort.png",
     url: "https://homecomfort-sameerkindia.netlify.app",
     core: "reactJS",
     tecnology: ["reactJs"],
@@ -23,6 +26,7 @@ const myProjects = [
   {
     id: 4,
     name: "Paint clone",
+    imgSrc: "/images/paint-clone.png",
     url: "https://paint-clone-sameerkindia.netlify.app",
     core: "javaScript",
     tecnology: ["javaScript"],
@@ -30,6 +34,7 @@ const myProjects = [
   {
     id: 5,
     name: "Tea station",
+    imgSrc: "/images/tea-station.png",
     url: "https://tea-station-sameerkindia.netlify.app",
     core: "CSS",
     tecnology: ["CSS"],
@@ -37,6 +42,7 @@ const myProjects = [
   {
     id: 6,
     name: "Drum kit",
+    imgSrc: "/images/drum-kit.png",
     url: "https://drum-kit-sameerkindia.netlify.app",
     core: "javaScript",
     tecnology: ["javaScript"],
@@ -44,6 +50,7 @@ const myProjects = [
   {
     id: 7,
     name: "Infinity Scroll",
+    imgSrc: "/images/infinite-scroll.png",
     url: "https://infinity-scroll-sameerkindia.netlify.app",
     core: "javaScript",
     tecnology: ["javaScript"],
@@ -51,6 +58,7 @@ const myProjects = [
   {
     id: 8,
     name: "Heart trail",
+    imgSrc: "/images/heart-trail.png",
     url: "https://heart-trail-animation-sameerkindia.netlify.app",
     core: "javaScript",
     tecnology: ["javaScript", "CSS"],
@@ -58,6 +66,7 @@ const myProjects = [
   {
     id: 9,
     name: "Grocery bud",
+    imgSrc: "/images/grocery-bud.png",
     url: "https://grocery-bud-sameerkindia.netlify.app",
     core: "reactJS",
     tecnology: ["reactJs"],
@@ -65,6 +74,7 @@ const myProjects = [
   {
     id: 10,
     name: "The pizza",
+    imgSrc: "/images/the-pizza.png",
     url: "https://the-pizaa-sameerkindia.netlify.app/",
     core: "reactJS",
     tecnology: ["reactJs"],
@@ -72,6 +82,7 @@ const myProjects = [
   {
     id: 11,
     name: "Cocktail DB",
+    imgSrc: "/images/cooktail-db.png",
     url: "https://the-cocktail-db-sameerkindia.netlify.app",
     core: "reactJS",
     tecnology: ["reactJs"],
@@ -79,6 +90,7 @@ const myProjects = [
   {
     id: 12,
     name: "Click bubble",
+    imgSrc: "/images/click-bubble.png",
     url: "https://click-bubble-sameerkindia.netlify.app",
     core: "javaScript",
     tecnology: ["javaScript"],
@@ -86,6 +98,7 @@ const myProjects = [
   {
     id: 15,
     name: "Natours",
+    imgSrc: "/images/natours.png",
     url: "https://natours-sameerkindia.netlify.app/",
     core: "CSS",
     tecnology: ["CSS"],
@@ -93,6 +106,7 @@ const myProjects = [
   {
     id: 13,
     name: "Trillo",
+    imgSrc: "/images/trillo-img.png",
     url: "https://trillo-sameerkindia.netlify.app",
     core: "CSS",
     tecnology: ["CSS"],
@@ -100,6 +114,7 @@ const myProjects = [
   {
     id: 14,
     name: "Omnifood",
+    imgSrc: "/images/omnifood.png",
     url: "https://omnifood-sameerkindia.netlify.app/",
     core: "CSS",
     tecnology: ["CSS"],
@@ -107,6 +122,7 @@ const myProjects = [
   {
     id: 16,
     name: "Number range table",
+    imgSrc: "/images/number-range.png",
     url: "https://number-range-sameerkindia.netlify.app/",
     core: "javaScript",
     tecnology: ["javaScript"],

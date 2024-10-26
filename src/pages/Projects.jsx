@@ -27,6 +27,7 @@ function Projects() {
                   url={item.url}
                   id={item.id}
                   key={item.id}
+                  imgSrc={item.imgSrc}
                 />
               ))}
             </ul>
