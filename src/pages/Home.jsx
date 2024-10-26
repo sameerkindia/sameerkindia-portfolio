@@ -14,7 +14,7 @@ function Home() {
             <h1 className={styles.homeHeading}>
               i,m <span>Sameer</span>
             </h1>
-            <p className={styles.highlight}>full-stack web developer</p>
+            <p className={styles.highlight}>Front-end web developer</p>
             <p className={styles.homeInfo}>
               MERN Stack Developer committed to crafting seamless user
               experiences with MongoDB, Express.js, React.js, and Node.js.

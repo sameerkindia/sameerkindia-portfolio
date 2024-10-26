@@ -145,6 +145,7 @@ p {
   letter-spacing: var(--spacing);
   font-weight: bolder;
   color: #fff;
+  margin-bottom: 0px;
 }
 
 .active {

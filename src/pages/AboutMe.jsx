@@ -48,8 +48,8 @@ function AboutMe() {
             <div className={styles.skills}>
               <h3>Skills</h3>
               <p className={styles.skill}>
-                <span>JavaScript</span> <span>ReactJS</span> <span>NodeJS</span>{" "}
-                <span>ExpressJS</span> <span>MongoDB</span>
+                <span>JavaScript</span> <span>ReactJS</span>{" "}
+                <span>Next Js</span>
               </p>
               <p className={styles.skill}>
                 <span>HTML</span> <span>CSS</span> <span>Scss</span>{" "}

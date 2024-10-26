@@ -20,16 +20,20 @@ function Projects() {
 
           <section className={styles.project}>
             <ul className={styles.projectList}>
-              {data.map((item) => (
-                <ProjectItem
-                  title={item.name}
-                  tecnology={item.tecnology}
-                  url={item.url}
-                  id={item.id}
-                  key={item.id}
-                  imgSrc={item.imgSrc}
-                />
-              ))}
+              {data
+                .sort((a, b) => {
+                  return b.rating - a.rating;
+                })
+                .map((item) => (
+                  <ProjectItem
+                    title={item.name}
+                    tecnology={item.tecnology}
+                    url={item.url}
+                    id={item.id}
+                    key={item.id}
+                    imgSrc={item.imgSrc}
+                  />
+                ))}
             </ul>
           </section>
         </div>

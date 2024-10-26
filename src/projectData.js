@@ -6,6 +6,7 @@ const myProjects = [
     url: "https://fast-pizza-sameerkindia.netlify.app",
     core: "reactJS",
     tecnology: ["reactJs", "redux", "tailwind"],
+    rating: 4,
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const myProjects = [
     url: "https://pizza-web-app-sameerkindia.netlify.app",
     core: "javaScript",
     tecnology: ["javaScript", "scss"],
+    rating: 3.4,
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const myProjects = [
     url: "https://homecomfort-sameerkindia.netlify.app",
     core: "reactJS",
     tecnology: ["reactJs"],
+    rating: 3,
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const myProjects = [
     url: "https://paint-clone-sameerkindia.netlify.app",
     core: "javaScript",
     tecnology: ["javaScript"],
+    rating: 4,
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ const myProjects = [
     url: "https://tea-station-sameerkindia.netlify.app",
     core: "CSS",
     tecnology: ["CSS"],
+    rating: 3.9,
   },
   {
     id: 6,
@@ -46,6 +51,7 @@ const myProjects = [
     url: "https://drum-kit-sameerkindia.netlify.app",
     core: "javaScript",
     tecnology: ["javaScript"],
+    rating: 2,
   },
   {
     id: 7,
@@ -54,6 +60,7 @@ const myProjects = [
     url: "https://infinity-scroll-sameerkindia.netlify.app",
     core: "javaScript",
     tecnology: ["javaScript"],
+    rating: 3,
   },
   {
     id: 8,
@@ -62,6 +69,7 @@ const myProjects = [
     url: "https://heart-trail-animation-sameerkindia.netlify.app",
     core: "javaScript",
     tecnology: ["javaScript", "CSS"],
+    rating: 2.3,
   },
   {
     id: 9,
@@ -70,6 +78,7 @@ const myProjects = [
     url: "https://grocery-bud-sameerkindia.netlify.app",
     core: "reactJS",
     tecnology: ["reactJs"],
+    rating: 3.8,
   },
   {
     id: 10,
@@ -78,6 +87,7 @@ const myProjects = [
     url: "https://the-pizaa-sameerkindia.netlify.app/",
     core: "reactJS",
     tecnology: ["reactJs"],
+    rating: 3.5,
   },
   {
     id: 11,
@@ -86,6 +96,7 @@ const myProjects = [
     url: "https://the-cocktail-db-sameerkindia.netlify.app",
     core: "reactJS",
     tecnology: ["reactJs"],
+    rating: 3.9,
   },
   {
     id: 12,
@@ -94,14 +105,16 @@ const myProjects = [
     url: "https://click-bubble-sameerkindia.netlify.app",
     core: "javaScript",
     tecnology: ["javaScript"],
+    rating: 2.5,
   },
   {
-    id: 15,
+    id: 14,
     name: "Natours",
     imgSrc: "/images/natours.png",
     url: "https://natours-sameerkindia.netlify.app/",
     core: "CSS",
     tecnology: ["CSS"],
+    rating: 5,
   },
   {
     id: 13,
@@ -110,14 +123,16 @@ const myProjects = [
     url: "https://trillo-sameerkindia.netlify.app",
     core: "CSS",
     tecnology: ["CSS"],
+    rating: 5,
   },
   {
-    id: 14,
+    id: 15,
     name: "Omnifood",
     imgSrc: "/images/omnifood.png",
     url: "https://omnifood-sameerkindia.netlify.app/",
     core: "CSS",
     tecnology: ["CSS"],
+    rating: 5,
   },
   {
     id: 16,
@@ -126,7 +141,37 @@ const myProjects = [
     url: "https://number-range-sameerkindia.netlify.app/",
     core: "javaScript",
     tecnology: ["javaScript"],
+    rating: 3,
+  },
+  {
+    id: 17,
+    name: "Obys clone",
+    imgSrc: "/images/obys.png",
+    url: "https://obys-sameerkinda.netlify.app/",
+    core: "javaScript",
+    tecnology: ["javaScript", "CSS", "locomotive"],
+    rating: 4.5,
+  },
+  {
+    id: 18,
+    name: "Pinterest HomePage",
+    imgSrc: "/images/pinterest.png",
+    url: "https://pinterest-sameerkindia.netlify.app/",
+    core: "React Js",
+    tecnology: ["React js"],
+    rating: 4,
+  },
+  {
+    id: 19,
+    name: "Mazano",
+    imgSrc: "/images/mazano.png",
+    url: "https://mazano-sameerkinda.netlify.app/",
+    core: "Next JS",
+    tecnology: ["Next js", "Tailwind css"],
+    rating: 4.1,
   },
 ];
+
+//
 
 export default myProjects;
