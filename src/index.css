@@ -48,6 +48,11 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 ul {
   list-style-type: none;
 }
@@ -128,16 +133,18 @@ p {
 
 .page-heading {
   width: 100%;
-  padding: 2rem 0.5rem;
-  border: 1.5px solid;
+  padding: 1rem 0.5rem;
+  /* border: 1.5px solid; */
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  background-color: var(--clr-primary-1);
 }
 
 .page-heading h2 {
   text-transform: uppercase;
   letter-spacing: var(--spacing);
   font-weight: bolder;
+  color: #fff;
 }
 
 .active {
