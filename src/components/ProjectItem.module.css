@@ -46,3 +46,9 @@
   background-color: var(--clr-primary-1);
   display: inline-block;
 }
+
+.project img{
+  /* width: 100%; */
+  width: fit-content;
+  aspect-ratio: 7/4;
+}
