@@ -38,18 +38,18 @@ function AboutMe() {
               Stack proficiency.
             </p>
 
-            <span className={styles.download}>
+            <a className={styles.download} href="/assets/resume.pdf" download="sameer's resume">
               <FaDownload />
-              <a href="/assets/resume.pdf" download="sameer's resume">
+              <span>
                 Resume
-              </a>
-            </span>
+              </span>
+            </a>
 
             <div className={styles.skills}>
               <h3>Skills</h3>
               <p className={styles.skill}>
                 <span>JavaScript</span> <span>ReactJS</span>{" "}
-                <span>Next Js</span>
+                <span>NextJs</span>
               </p>
               <p className={styles.skill}>
                 <span>HTML</span> <span>CSS</span> <span>Scss</span>{" "}
