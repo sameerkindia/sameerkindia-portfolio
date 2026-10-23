@@ -55,11 +55,12 @@
   font-size: 1.2rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   max-width: 10rem;
   gap: 1rem;
 }
 
-.download a:link,
-.download a:visited {
+a:link.download,
+a:visited.download {
   color: black;
 }
